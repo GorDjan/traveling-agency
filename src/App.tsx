@@ -1,7 +1,14 @@
-import Page from "./components/page";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation/Navigation";
+import Page from "./components/Page";
+
 
 function App() {
-  return <Page></Page>;
+  return <Page>
+    <Header> 
+      <Navigation />
+    </Header>
+  </Page>;
 }
 
 export default App;
