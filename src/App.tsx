@@ -19,6 +19,7 @@ function App() {
         <Hero />
 
       </Header>
+      
       <Main>
         <Steps />
         <Services />
