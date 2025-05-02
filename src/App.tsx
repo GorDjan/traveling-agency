@@ -7,6 +7,9 @@ import Services from "./components/Services/Services";
 import Steps from "./components/Steps/Steps";
 import News from "./components/News/News.tsx";
 import ExploreMore from "./components/ExploreMore/ExploreMore.tsx";
+import Footer from "./components/Footer.tsx";
+import Testimonials from "./components/Testimonials/Testimonials.tsx";
+import FrequentTravelers from "./components/FrequentTravelers.tsx";
 
 
 function App() {
@@ -25,8 +28,11 @@ function App() {
         <Services />
         <News />
         <ExploreMore />
+        <FrequentTravelers />
+        <Testimonials />
       </Main>
       
+      <Footer />
   </Page>
   );
 }
